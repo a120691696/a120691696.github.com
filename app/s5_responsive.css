@@ -1,0 +1,484 @@
+/* ANY CSS FOR ALL WIDTHS GOES HERE
+----------------------------------------------------------- */
+
+/* ALL WIDTHS UNDER 970PX
+----------------------------------------------------------- */
+
+@media screen and (max-width: 970px){
+
+	/* DEFAULT
+	----------------- */
+
+	.s5_wrap {
+	width:97% !important;
+	}
+	
+	.s5_is_display, .s5_is_slide {
+	position:relative !important;
+	}
+	
+	.s5_is_slide {
+	height:auto !important;
+	}
+	
+	#fontControls {
+	display:none;
+	}
+	
+	/* CUSTOM
+	----------------- */
+	
+	#s5_responsive_mobile_scroll .s5_scrolltotop  {	
+		top: -19px;
+		background-color:#ffffff !important;
+		position: relative !important;}
+	
+	.s5_logo, .s5_logo_module {
+		margin-left:16px;}
+	
+	#s5_top_row2_area1 {
+			margin-bottom:0px;}
+			
+	.module_round_box-mediumtitle_light h3, .module_round_box-mediumtitle_dark h3	 {	
+		font-size:2.2em;}
+		
+	#s5_button_wrap0 {
+		display:none;}
+		
+	.overlay_outter.video, #s5_pos_top_row3_1 .module_round_box-mediumtitle_light  {
+		text-align:center;
+		clear: both !important;	
+		float:none !important;}
+		
+		#s5_pos_top_row3_1 .module_round_box-mediumtitle_light {
+			padding-bottom:15px;}
+		
+	.twophones {
+		float:none !important;}
+		
+	#s5_nav li a {
+        font-size: 0.9em;}
+		
+	#s5_nav li .s5_level1_span1  {
+		padding-left: 3px !important;
+		padding-right: 3px !important;}
+				
+	
+	#s5_responsive_mobile_drop_down_login_inner #login-form li:nth-child(3n+0) a {
+		background:none !important;
+		margin-top:auto;
+		color: #000000;
+		font-size: inherit;
+		padding: inherit;
+		text-align: left;
+		width: auto;}	
+	
+	.jdGallery .slideInfoZone h2, .jdGallery .slideInfoZone .slide_title {
+			font-size:2.9em !important;	}
+		
+
+	
+}
+
+
+/* TABLET PORTRAIT MODE CSS
+----------------------------------------------------------- */
+
+@media screen and (min-width:580px) and (max-width: 970px){
+
+	
+	/* CUSTOM
+	----------------- */
+	
+}
+
+
+/* TABLET PORTRAIT MODE CSS - SMALLER TABLETS
+----------------------------------------------------------- */
+
+@media screen and (max-width: 750px){
+
+	/* CUSTOM
+	----------------- */
+	
+		#s5_search_overlay, #s5_search_content {
+		display:none !important;}
+		
+		.services_wrap_inner {
+			padding-left: 20px;
+			padding-right: 20px;}
+
+		.services_wrap_inner {
+			border:none !important;}
+			
+		#s5_nav li a {
+			font-size: 0.8em;}
+				
+		.s5_search_wrap {
+			display:none;}
+			
+	.s5_logo_module, .s5_logo {
+		float: none;
+		margin-top: -19px;
+		margin-right:auto;
+		margin-left:auto;	}	
+	
+	#s5_headertop {
+		padding-top: 75px;}	
+		
+		
+	.module_round_box-mediumtitle_dark, .module_round_box-mediumtitle_light {
+    text-align: center;
+	 float: none !important;}	
+			
+			
+}
+
+
+/* MOBILE LAYOUT CSS
+----------------------------------------------------------- */
+
+@media screen and (max-width: 579px){
+
+	/* DEFAULT
+	----------------- */
+
+	#s5_right_column_wrap_inner .s5_float_left, #s5_left_column_wrap_inner .s5_float_left {
+	float:none;
+	}
+
+	#s5_columns_wrap_inner {
+	width:100%;
+	}
+
+	#s5_center_column_wrap {
+	width:100%;
+	left:100%;
+	}
+
+	#s5_left_column_wrap {
+	left:0%;
+	}
+	
+	#s5_left_top_wrap, #s5_left_column_wrap, #s5_left_inset_wrap, #s5_left_wrap, #s5_left_bottom_wrap, #s5_right_top_wrap, #s5_right_column_wrap, #s5_right_inset_wrap, #s5_right_wrap, #s5_right_bottom_wrap, #s5_top_row1 .s5_float_left, #s5_top_row2 .s5_float_left, #s5_top_row3 .s5_float_left, #s5_above_columns_inner .s5_float_left, #s5_middle_top .s5_float_left , #s5_middle_bottom .s5_float_left, #s5_below_columns_inner .s5_float_left, #s5_bottom_row1 .s5_float_left, #s5_bottom_row2, .s5_float_left, #s5_bottom_row3 .s5_float_left, #s5_above_body .s5_float_left, #s5_below_body .s5_float_left {
+	width:100% !important;
+	}
+	
+	#s5_center_column_wrap_inner {
+	margin:0px !important;
+	}
+	
+	#s5_left_column_wrap {
+	margin-right:0px !important;
+	}
+	
+	#s5_right_column_wrap {
+	margin-left:0px !important;
+	}
+	
+	.items-row .item {
+	width:100% !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	}
+	
+	/* CUSTOM
+	----------------- */
+	
+	.jdGallery .slideInfoZone h2, .jdGallery .slideInfoZone .slide_title {
+		font-size:1.9em !important;
+	}
+	
+	.jdGallery .slideInfoZone {
+	padding-top:95px !important;
+	}
+
+
+}
+
+
+/* CUSTOM SIZES
+----------------------------------------------------------- */
+
+
+
+@media screen and (max-width: 1615px){
+	
+	.ipad_hide, .headphones_hide {
+		display:none !important;	}
+
+}
+
+
+
+@media screen and (min-width:770px) and (max-width: 1889px){
+		#s5_pos_custom_1 #myGallery {
+		height:1048px !important;}
+		
+}		
+
+
+@media screen and (max-width: 1280px){
+
+	.jdGallery a.right, .jdGallery a.left {
+		display:none !important;}
+	
+	.jdGallery .slideInfoZone p {
+		margin-top: -20px !important;
+		padding-left:20px !important;
+		padding-right:20px !important;}
+		
+	
+	.jdGallery .slideInfoZone h2, .jdGallery .slideInfoZone .slide_title {
+        font-size: 4.2em !important;}
+		
+	
+	.slideInfoZone .right img {
+        width: 90%;	}
+		
+	.right img.no_margin {
+		margin-top:-105px !important;}
+		
+
+}
+
+
+
+@media screen and (max-width: 1230px){
+
+	.jdGallery .slideInfoZone p {
+		padding-left:40px !important;
+		padding-right:40px !important;}
+
+}
+
+@media screen and (max-width: 1025px){
+	.icon_scrolldown {	
+		display:none;}
+		
+}		
+
+
+@media screen and (max-width: 1110px){
+
+	.slideInfoZone .right img {
+        margin-top: -25px !important;}
+		
+		
+}
+
+@media screen and (max-width: 1000px){
+
+	.jdGallery .slideInfoZone h2, .jdGallery .slideInfoZone .slide_title {
+		font-size: 3.5em !important;	}
+	
+	.slideInfoZone .right img {
+        margin-top: -25px !important;}
+
+
+}
+
+@media screen and (max-width: 850px){
+
+	
+	.slide_text {
+    font-size: 1em !important;
+	line-height:20px;
+	margin-top: -29px;}
+
+	.icon_phones {
+	display:none;}
+	
+	.jdGallery .slideInfoZone {
+    padding-top: 130px !important;
+	}
+
+
+	.slide_title br {
+	display:none;
+	}
+	
+	.slideInfoZone .right, .slideInfoZone_unload .right {
+	display:none;
+	}
+	
+	.slideInfoZone .left, .slideInfoZone_unload .left {
+	width:100%;
+	}
+	
+	.jdGallery .slideInfoZone h2, .jdGallery .slideInfoZone .slide_title {
+	text-align:center;
+	}
+	
+	.slide_text {
+	font-size:1.3em;
+	margin-bottom: 50px;
+	}
+	
+	.slideInfoZone .left, .slideInfoZone_unload .left {
+	text-align:center;
+	}
+	
+	.jdGallery a.readon {
+	float:none;
+	}
+
+}
+
+@media screen and (max-width: 850px){
+
+	#s5_pos_custom_1 #myGallery {
+		height:700px !important;}
+		
+	.module_round_box-bigtitle_dark h3.s5_mod_h3, .module_round_box-bigtitle_light h3.s5_mod_h3 {
+		font-size: 2.2em;	}
+
+}
+
+@media screen and (max-width: 580px){
+ #s5_top_row2_wrap {
+	padding-top:0px;
+	padding-bottom:0px; }
+	
+	
+.jdGallery .slideInfoZone h2, .jdGallery .slideInfoZone .slide_title {
+    font-size: 2.5em !important;}	
+	
+
+#s5_pos_custom_1 a.readon {  
+    font-size: 0.8em !important;
+    padding: 14px 16px 12px !important;}
+ 
+} 
+
+
+@media screen and (max-width: 380px){
+
+#s5_pos_custom_1 a.readon {  
+    font-size: 0.7em !important;
+    padding: 10px 13px 9px  !important;}
+	
+	
+.jdGallery .slideInfoZone h2, .jdGallery .slideInfoZone .slide_title {
+    font-size: 2.2em !important;}	
+ 
+} 
+
+
+@media screen and (max-width: 376px){
+
+	.twophones {
+		float:none !important;
+		text-align:center;}
+		
+	.twophones img {	
+		margin:0 auto !important;
+		float:none !important;}
+		
+	.phone2 {
+		display:none !important;}
+
+}
+
+
+
+
+
+
+
+/* S5 BOX
+----------------------------------------------------------- */
+
+@media screen and (max-width: 970px){
+
+	#colorbox {
+	width:50% !important;
+	height:auto !important;
+	}
+	
+	#cboxWrapper {
+	width:100% !important;
+	}
+	
+	#cboxContent, #cboxLoadedContent {
+	width:100% !important;
+	height:auto !important;
+	}
+	
+	#colorbox {
+	left:25% !important;
+	width:50% !important;
+	height:100% !important;
+	top:25% !important;
+	}
+	
+}
+
+@media screen and (max-width: 750px){
+
+	#cboxOverlay, #colorbox {
+	display:none !important;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* SINGLE COLUMN FOR SMALL TABLETS - THIS IS ONLY USED FOR IE7 AND IE8. THE CLASS IS SET WITH JAVASCRIPT FOR IE ONLY
+----------------------------------------------------------- */
+
+@media screen and (max-width: 750px){
+	
+	.s5_ie_single_column #s5_right_column_wrap_inner .s5_float_left, .s5_ie_single_column #s5_left_column_wrap_inner .s5_float_left {
+	float:none  !important;
+	}
+
+	.s5_ie_single_column #s5_columns_wrap_inner {
+	width:100%  !important;
+	}
+
+	.s5_ie_single_column #s5_center_column_wrap {
+	width:100%  !important;
+	left:100%  !important;
+	}
+
+	.s5_ie_single_column #s5_left_column_wrap {
+	left:0%  !important;
+	}
+	
+	.s5_ie_single_column #s5_left_top_wrap, .s5_ie_single_column #s5_left_column_wrap, .s5_ie_single_column #s5_left_inset_wrap, .s5_ie_single_column #s5_left_wrap, .s5_ie_single_column #s5_left_bottom_wrap, .s5_ie_single_column #s5_right_top_wrap, .s5_ie_single_column #s5_right_column_wrap, .s5_ie_single_column #s5_right_inset_wrap, .s5_ie_single_column #s5_right_wrap, .s5_ie_single_column #s5_right_bottom_wrap {
+	width:100% !important;
+	}
+	
+	.s5_ie_single_column #s5_center_column_wrap_inner {
+	margin:0px !important;
+	}
+	
+	.s5_ie_single_column #s5_left_column_wrap {
+	margin-right:0px !important;
+	}
+	
+	.s5_ie_single_column #s5_right_column_wrap {
+	margin-left:0px !important;
+	}
+	
+	.s5_ie_single_column  .items-row .item {
+	width:100% !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	}
+
+}

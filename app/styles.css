@@ -1,0 +1,178 @@
+#s5_button {
+	position: relative; /* important */
+	overflow: hidden;
+	margin: 0;
+	z-index:1;}
+
+#s5_button_content {
+	position: relative;
+	top: 0;
+	z-index:1;
+	margin-left: 0;}
+
+#s5_button_content
+#s5_button_content li {
+	list-style: none;
+	margin: 0;
+	padding: 0;}
+	
+	#s5_button_content {
+		width: 1344000px;
+	}
+	#container_bd #s5_button ul li {
+		display: block;
+		float: left;
+		margin: 0;
+		z-index:1;
+		padding: 0;
+		border: none;	}
+
+#container_bd #s5_button ul li img {
+	display: block;}
+
+
+#container_bd #s5_button_frame ul li {
+	margin: 0px;}
+
+
+#s5_button_content li {
+	padding:0px;
+	margin:0px;
+	float:left;}
+	
+#s5_button_content li li {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:disc;
+	float:none;}
+	
+	
+	
+#s5_button_frame a:hover {
+	text-decoration:none;}
+	
+#s5_button_frame ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;}
+
+
+#s5_button_content li {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	line-height:16px;}
+
+#s5_button_frame  ul li {
+	cursor:pointer;
+	float:left;
+	margin-right:0px;}
+	
+#s5_button_frame  ul li a {
+	display:block;
+    font-size:1.2em;
+    height:23px;
+    line-height:24px;
+    padding-left:8px;}
+
+#s5_button_frame ul li:hover, #s5_button_frame ul li.over {
+	position:relative;
+	cursor:pointer;}
+		
+#s5_button_frame ul li.s5_fsfirst {
+	cursor:pointer;}
+	
+#s5_button_frame ul li.s5_fsfirst:hover, #s5_button_frame ul li.s5_fsfirst.over {
+	cursor:pointer;}
+	
+#s5_button_content .moduletable {
+	padding:30px;}
+
+#s5_button_content .moduletable h1 {
+	font-size:1.4em;
+	margin-bottom:12px;
+	padding-top:4px;}
+
+#s5_button_content div.moduletable {
+	border:none;
+	margin:0px;}
+
+#s5_button_frame {
+	height:44px;}
+		
+#s5_button_wrap2 {
+	padding:0px;}
+
+#s5_button_frame ul li {
+	padding:9px 17px 9px 9px;}
+
+#s5_button p {
+	padding:0px;}
+
+#s5_tabshow_left {
+	background:none;}
+
+.s5_ts_active, .s5_ts_not_active {
+	background:none;
+	margin:0px;	}
+
+.s5_ts_not_active {
+}
+
+.s5_ts_active {
+	-webkit-box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.1); 
+	box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.1);
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 41%, #f8f8f8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(41%,#ffffff), color-stop(100%,#f8f8f8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 41%,#f8f8f8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 41%,#f8f8f8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 41%,#f8f8f8 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 41%,#f8f8f8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */	}
+
+.s5_ts_not_active a {
+	-webkit-transition: all 0.5s linear 0s;
+	-moz-transition: all 0.5s linear 0s;
+	-o-transition: all 0.5s linear 0s;
+	transition: all 0.5s linear 0s;
+	background:none;}
+
+#s5_button_frame  ul li.s5_ts_active a {color:#000000;}
+
+.s5_button_item_inner {visibility:hidden;}
+
+#s5_button_wrap0, #s5_tabshow_left, #s5_button, #s5_tabshow_right {
+	width:100% !important;
+	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */
+	box-sizing: border-box !important;         /* Opera/IE 8+ */}
+
+#s5_button_wrap0 {
+	margin-bottom:0;
+	margin-top:5px;}
+
+#s5_tabshow_left {
+	-webkit-box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.1); 
+	box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.1);
+	padding-bottom:25px;
+	background:#ffffff;}
+
+	
+/* Responsive CSS - below switches tabs to stack on top of each other once screen width is less than 625 */
+
+@media screen and (max-width: 579px){
+
+	#s5_button_frame {
+	height:auto !important;
+	}
+	
+	#s5_button_frame ul li {
+	float:none !important;
+	text-align:center !important;
+	}
+	
+}
+	
