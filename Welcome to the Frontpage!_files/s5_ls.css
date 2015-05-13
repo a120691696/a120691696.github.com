@@ -1,0 +1,44 @@
+/* S5 LIVE SEARCH
+----------------------------------------------------------- */
+
+
+#loading_img {
+	position:absolute;
+}
+
+#s5_ls_outer_wrap {
+	z-index: 3;
+	position: absolute;
+}
+
+.s5_ls_bar_span, a.s5_ls_result_link {
+	font-weight:bold;
+}
+
+#s5_ls_outer_wrap h3, #s5_ls_outer_wrap a, #s5_ls_outer_wrap span, #s5_ls_outer_wrap img {
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+	text-transform:none;
+	background:none;
+	border:none;
+}
+
+#s5_ls_outer_wrap div {
+	padding:0px;
+	margin:0px;
+	border:none;
+	width:auto;
+}
+
+.s5_ls_result1_text, .s5_ls_result2_text {
+	line-height:120% !important;
+}
+
+#s5_ls_close {
+	position:absolute;
+	cursor:pointer;
+	right:4px;
+	top:3px;
+	background:url(../images/s5_exit.png) no-repeat !important;
+}
